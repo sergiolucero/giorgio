@@ -9,6 +9,6 @@ with tab1:
     st.title('👩‍🏫 Colegio San Juan escriba digital 🤖')
     simple_recorder()
 with tab2:
-    st.header('Revisión)
+    st.header('Revisión')
     contents = s3_contents()  
     st.table(contents)
